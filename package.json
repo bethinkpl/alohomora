@@ -4,7 +4,7 @@
   "description": "welcome in the world of magic! Ty mugolu",
   "main": "index.js",
   "scripts": {
-    "start": "nodejs ./bin/www",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
