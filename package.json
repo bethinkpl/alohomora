@@ -1,0 +1,24 @@
+{
+  "name": "alohomora",
+  "version": "1.0.0",
+  "description": "welcome in the world of magic! Ty mugolu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bethinkpl/alohomora.git"
+  },
+  "keywords": [
+    "slack",
+    "node",
+    "raspberry"
+  ],
+  "author": "Wizards and Witches",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bethinkpl/alohomora/issues"
+  },
+  "homepage": "https://github.com/bethinkpl/alohomora#readme"
+}
