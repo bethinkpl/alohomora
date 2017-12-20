@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/bethinkpl/alohomora/issues"
   },
-  "homepage": "https://github.com/bethinkpl/alohomora#readme"
+  "homepage": "https://github.com/bethinkpl/alohomora#readme",
+  "dependencies": {
+    "@slack/client": "^3.14.2",
+    "giphy-js-sdk-core": "^1.0.2"
+  }
 }
