@@ -19,6 +19,6 @@ router.post('/', function (req, res) {
 app.use(express.static(__dirname + '/server/public/'));
 app.use(router);
 app.listen(config.PORT);
-console.log(`Starting web server on port 3000 ${config.PORT}`);
+console.log(`Starting web server on port ${config.PORT}`);
 
 module.exports = router;
