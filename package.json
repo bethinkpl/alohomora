@@ -4,7 +4,8 @@
   "description": "welcome in the world of magic! Ty mugolu",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bot-start": "pm2 start bot/bot.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
   "homepage": "https://github.com/bethinkpl/alohomora#readme",
   "dependencies": {
     "@slack/client": "^3.14.2",
-    "giphy-js-sdk-core": "^1.0.2"
+    "giphy-js-sdk-core": "^1.0.2",
+    "pm2": "^2.9.1"
   }
 }
