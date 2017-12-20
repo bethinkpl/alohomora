@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "Magic";
+    src: url("../font/ParryHotter.ttf") format('truetype');
+}
+
+body {
+  font: 26px "Magic", Helvetica, Arial, sans-serif;
+}
+
+div {
+    font-family: "Magic", Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    width: 247px;
+    height: 247px;
+}

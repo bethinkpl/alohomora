@@ -4,6 +4,7 @@
   "description": "welcome in the world of magic! Ty mugolu",
   "main": "index.js",
   "scripts": {
+    "start": "nodejs ./bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +23,12 @@
   },
   "homepage": "https://github.com/bethinkpl/alohomora#readme",
   "dependencies": {
-    "express": "^4.16.2"
+    "body-parser": "~1.0.0",
+    "cookie-parser": "~1.0.1",
+    "debug": "~0.7.4",
+    "express": "^4.16.2",
+    "jade": "~1.3.0",
+    "morgan": "~1.0.0",
+    "static-favicon": "~1.0.0"
   }
 }
