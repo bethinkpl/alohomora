@@ -3,9 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "test": "make test"
+    "test": "make test",
     "start": "pm2 start index.js",
-    "bot-start": "pm2 start bot/bot.js"
+    "bot-start": "pm2 start bot/bot.js",
+    "setup": "yarn install --pure-lockfile"
   },
   "repository": {
     "type": "git",
