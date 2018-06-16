@@ -2,6 +2,7 @@ const config = require('../config.json');
 const charms = require('./charms.json');
 const RtmClient = require('@slack/client').RtmClient;
 const {CLIENT_EVENTS, RTM_EVENTS} = require('@slack/client');
+const { exec } = require('child_process');
 
 const GphApiClient = require('giphy-js-sdk-core')
 const bot_token = process.env.SLACK_BOT_TOKEN || config.SLACK_BOT_TOKEN;
@@ -24,6 +25,10 @@ rtm.on(CLIENT_EVENTS.RTM.RTM_CONNECTION_OPENED, function () {
 rtm.on(RTM_EVENTS.MESSAGE, function({text, user, channel}) {
     if (text && text.match(ALOHOMORA_PATTERN)) {
         const randomCharm = charms[Math.floor(Math.random()*charms.length)];
+            exec('python /home/pi/rf/signal.py', (err, stdout, stderr) => {
+              console.log(err,stdout,stderr)
+            })
+
         rtm.sendMessage(
             `<@${user}> ... ${randomCharm.name.toUpperCase()}!!!! \n (_${randomCharm.effect}_)`,
             channel

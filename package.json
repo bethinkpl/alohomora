@@ -3,8 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./server/bin/www",
     "test": "make test"
+    "start": "pm2 start index.js",
+    "bot-start": "pm2 start bot/bot.js"
   },
   "repository": {
     "type": "git",
