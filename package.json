@@ -15,6 +15,7 @@
   "author": "Michael Herman <michael@mherman.org>",
   "license": "MIT",
   "dependencies": {
+    "@slack/client": "^3.0.0",
     "body-parser": "^1.10.2",
     "chai": "~1.8.1",
     "connect-flash": "^0.1.1",
@@ -22,6 +23,7 @@
     "debug": "^2.1.1",
     "express": "^4.11.1",
     "express-session": "^1.10.1",
+    "giphy-js-sdk-core": "^1.0.3",
     "jade": "^1.9.1",
     "mocha": "~1.14.0",
     "mongoose": "^4.4.1",
